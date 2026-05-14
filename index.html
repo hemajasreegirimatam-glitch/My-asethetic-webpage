@@ -1,0 +1,206 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me 💜</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+background: url('animebg.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color:white;
+overflow-x:hidden;
+}
+
+    }
+
+    header{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      text-align:center;
+      padding:20px;
+    }
+
+    header h1{
+      font-size:50px;
+      color:#ffccff;
+      text-shadow:0 0 15px #ff66cc;
+    }
+
+    header p{
+      margin-top:15px;
+      font-size:18px;
+      color:#f3d9ff;
+    }
+
+    section{
+      padding:50px 20px;
+    }
+
+    .title{
+      font-size:35px;
+      margin-bottom:25px;
+      text-align:center;
+      color:#ffb3ff;
+    }
+
+    .about-box{
+      background: rgba(255,255,255,0.08);
+      padding:25px;
+      border-radius:20px;
+      backdrop-filter: blur(10px);
+      box-shadow:0 0 20px rgba(255, 102, 204, 0.4);
+      max-width:700px;
+      margin:auto;
+      text-align:center;
+      line-height:1.8;
+    }
+
+    .songs{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:20px;
+    }
+
+    .song-card{
+      background: rgba(255,255,255,0.08);
+      width:220px;
+      padding:20px;
+      border-radius:20px;
+      text-align:center;
+      transition:0.3s;
+      box-shadow:0 0 15px rgba(255,255,255,0.1);
+    }
+
+    .song-card:hover{
+      transform:translateY(-10px);
+      box-shadow:0 0 20px #ff66cc;
+    }
+
+    .gallery{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:20px;
+    }
+
+    .gallery img{
+      width:250px;
+      height:300px;
+      object-fit:cover;
+      border-radius:20px;
+      transition:0.4s;
+      box-shadow:0 0 15px rgba(255,255,255,0.2);
+    }
+
+    .gallery img:hover{
+      transform:scale(1.05);
+      box-shadow:0 0 25px #ff66cc;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      color:#e6b3ff;
+      font-size:16px;
+    }
+
+    @keyframes moveStars{
+      from{
+        transform:translateY(0);
+      }
+      to{
+        transform:translateY(-1000px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<header>
+  <h1>Welcome To My World 💜</h1>
+  <p>Lost in art, music and little dreams ✨</p>
+</header>
+
+<section>
+  <h2 class="title">About Me 🌸</h2>
+
+  <div class="about-box">
+    <p>
+      Heyy! I'm someone who loves drawing eyes 👀,
+      listening to music 🎧, creating aesthetic things ✨
+      and exploring AI & creativity 🤖🎨
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2 class="title">Favorite Songs 🎵</h2>
+
+  <div class="songs">
+
+    <div class="song-card">
+      <h3>Song 1</h3>
+      <p>Maate vinadhuga </p>
+    </div>
+
+    <div class="song-card">
+      <h3>Song 2</h3>
+      <p>Golden sparrow </p>
+    </div>
+
+    <div class="song-card">
+      <h3>Song 3</h3>
+      <p>Dheema Dheema </p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2 class="title">My Drawings 🎨</h2>
+
+  <div class="gallery">
+
+    <img src="image1.jpg">
+    <img src="image2.jpg">
+    <img src="image3.jpg">
+
+  </div>
+</section>
+
+<section>
+  <h2 class="title">Dreams 🌙</h2>
+
+  <div class="about-box">
+    <p>
+      I want to grow creatively, build beautiful things,
+      learn AI and create my own aesthetic digital world 💫
+    </p>
+  </div>
+</section>
+
+<footer>
+  Thanks for visiting my tiny world ✨💜
+</footer>
+
+</body>
+</html>
